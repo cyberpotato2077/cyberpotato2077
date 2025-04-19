@@ -9,6 +9,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "vitepress": "latest"
   }
 }
