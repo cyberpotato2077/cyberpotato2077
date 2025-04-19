@@ -3,8 +3,8 @@ name: assign_issue_number_to_pr_body
 on:
   pull_request:
     types: [ opened ]
-    branches-ignore:
-      - main
+    # branches-ignore:
+    #   - main
 
 jobs:
   append_issue_number_to_pr_body:
